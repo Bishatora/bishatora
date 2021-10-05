@@ -118,6 +118,14 @@ aside p {
   padding: 12px 10px;
 }
 
+aside a {
+  color: rgb(255, 132, 17);
+}
+
+aside a:hover {
+  color: rgb(218, 12, 12);
+}
+
   /*----- フッター -----*/
   footer {
     background: rgb(48, 48, 48);
