@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-/* 共通 */
+/* common */
 html {
     font-size: 100%;
-    background-color: rgb(98, 98, 98);
+    background-color: rgb(68, 68, 68);
 }
 a {
     text-decoration: none;
@@ -14,7 +14,7 @@ body {
     color: rgb(255, 132, 17);
 }
 
-/* ヘッダー */
+/* header */
 header {
     background: rgb(48, 48, 48);
     text-align: left;
@@ -52,7 +52,7 @@ header a:hover {
   margin: 10px 0 42px;
 }
 
-/*----- 見出し -----*/
+/*----- heading -----*/
 .page-title {
   font-size: 5rem;
   font-family: 'Philosopher', serif;
@@ -70,12 +70,12 @@ header a:hover {
   text-align: center;
 }
 
-/*----- あーてぃくる -----*/
+/*----- article -----*/
 article {
   width: 74%;
 }
 
-/*----- あさいど？ -----*/
+/*----- asuide -----*/
 aside {
   width: 22%;
 }
@@ -100,6 +100,7 @@ aside {
 }
 
 article img {
+  max-width: 35%;
   margin-bottom: 20px;
 }
 
@@ -109,13 +110,13 @@ article p {
 
 .sub-title {
   font-size: 1.375rem;
-  padding: 0 8px 8px;
+  padding: 8px 0 8px 8px;
   border-bottom: 2px #0db solid;
   font-weight: normal;
 }
 
 aside p {
-  padding: 12px 10px;
+  padding: 12px 8px 10px;
 }
 
 aside a {
@@ -126,7 +127,7 @@ aside a:hover {
   color: rgb(218, 12, 12);
 }
 
-  /*----- フッター -----*/
+  /*----- footer -----*/
   footer {
     background: rgb(48, 48, 48);
     text-align: center;
@@ -146,12 +147,12 @@ aside a:hover {
     color: rgb(218, 12, 12);
   }
   
-  /*----- モバイル -----*/
+  /*----- mobile -----*/
   @media (max-width: 600px) {
     .page-title {
       font-size: 2.5rem;
     }
-    /*--- メイン ---*/
+    /*--- main ---*/
     .main-contents {
       margin-top: 20%;
       flex-direction: column;
